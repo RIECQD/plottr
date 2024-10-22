@@ -16,7 +16,7 @@ config = {
         'font.sans-serif': ['Helvetica', 'Arial', 'DejaVu Sans', 'Bitstream Vera Sans'],
         'grid.linewidth': 0.5,
         'grid.linestyle': '--',
-        'image.cmap': 'magma',
+        'image.cmap': 'plasma',
         'legend.fontsize': 6,
         'legend.frameon': True,
         'legend.numpoints': 1,
