@@ -111,7 +111,7 @@ class MPLPlot(FCanvas):
         Copy the current canvas to the clipboard.
         """
         buf = io.BytesIO()
-        self.fig.savefig(buf, dpi=300, facecolor='w', format='png',
+        self.fig.savefig(buf, dpi=125, facecolor='w', format='png',
                          transparent=True)
 
         clipboard = QtWidgets.QApplication.clipboard()
